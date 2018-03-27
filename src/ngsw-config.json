@@ -1,14 +1,13 @@
 {
-  "index": "./index.html",
+  "index": "/index.html",
   "assetGroups": [{
-    "name": "NgColombia",
+    "name": "app",
     "installMode": "prefetch",
     "resources": {
       "files": [
         "/favicon.ico",
         "/index.html",
         "/assets/js/wall.js",
-        "/manifest.json",
         "/ngsw-worker.js"
       ],
       "versionedFiles": [

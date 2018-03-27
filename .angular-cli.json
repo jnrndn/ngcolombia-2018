@@ -9,8 +9,8 @@
       "outDir": "docs",
       "assets": [
         "assets",
-        "manifest.json",
         "favicon.ico",
+        "manifest.json",
         "web.config"
       ],
       "index": "index.html",
