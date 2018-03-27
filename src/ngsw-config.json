@@ -1,5 +1,5 @@
 {
-  "index": "/index.html",
+  "index": "./index.html",
   "assetGroups": [{
     "name": "NgColombia",
     "installMode": "prefetch",
@@ -24,6 +24,9 @@
     "resources": {
       "files": [
         "/assets/**"
+      ],
+      "urls": [
+         "https://fonts.googleapis.com/**"
       ]
     }
   }]
