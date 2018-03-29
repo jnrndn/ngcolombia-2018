@@ -34,9 +34,7 @@ import {
   ],
   imports: [
     BrowserModule,
-    ServiceWorkerModule.register('./ngsw-worker.js', {
-      enabled: environment.production,
-    }),
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : [],
     ServiceWorkerModule,
     BrowserAnimationsModule,
     MatButtonModule,

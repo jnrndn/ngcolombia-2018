@@ -7,8 +7,7 @@
       "files": [
         "/favicon.ico",
         "/index.html",
-        "/assets/js/wall.js",
-        "/ngsw-worker.js"
+        "/assets/js/wall.js"
       ],
       "versionedFiles": [
         "/*.bundle.css",
