@@ -7,7 +7,8 @@
       "files": [
         "/favicon.ico",
         "/index.html",
-        "/assets/js/wall.js"
+        "/assets/js/wall.js",
+        "/manifest.json"
       ],
       "versionedFiles": [
         "/*.bundle.css",
