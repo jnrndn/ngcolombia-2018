@@ -42,9 +42,9 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/cdk@^5.2.4":
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-5.2.4.tgz#c0a429a8710d8fedb157f546e21cb49d4335f7f7"
+"@angular/cdk@^6.0.0-rc.1":
+  version "6.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-6.0.0-rc.1.tgz#f0b71280f6ef6d069722f94fecd51649684a7cfb"
   dependencies:
     tslib "^1.7.1"
 
@@ -156,9 +156,9 @@
   version "6.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.0-rc.3.tgz#7fb4057fac3ce07c6219dcc69c26e2948e9f6a33"
 
-"@angular/material@^5.2.4":
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-5.2.4.tgz#9e823798324283d23ea839156fac5bcb73443d55"
+"@angular/material@^6.0.0-rc.1":
+  version "6.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-6.0.0-rc.1.tgz#4f5d76aa6c1d34907027d0d410669f92490eef09"
   dependencies:
     tslib "^1.7.1"
 
@@ -4912,7 +4912,17 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^5.5.2, rxjs@^5.5.6:
+rxjs-compat@6.0.0-beta.1:
+  version "6.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/rxjs-compat/-/rxjs-compat-6.0.0-beta.1.tgz#ef7289354600f139253f719cbb2f0a6b2d572108"
+
+rxjs@6.0.0-beta.1:
+  version "6.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.0.0-beta.1.tgz#ac6b181251ece21051435c3da2538444b43a37c1"
+  dependencies:
+    tslib "^1.9.0"
+
+rxjs@^5.5.6:
   version "5.5.6"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.6.tgz#e31fb96d6fd2ff1fd84bcea8ae9c02d007179c02"
   dependencies:
@@ -5787,13 +5797,13 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@~2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
-
 typescript@~2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
+
+typescript@~2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
 
 uglify-es@^3.3.4:
   version "3.3.9"
